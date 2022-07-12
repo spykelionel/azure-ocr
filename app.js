@@ -14,7 +14,7 @@ const ApiKeyCredentials = require('@azure/ms-rest-js').ApiKeyCredentials;
  * This single client is used for all examples.
  */
 const key = process.env.API_KEY;
-const endpoint = 'https://ocr-image2text.cognitiveservices.azure.com/';
+const endpoint = process.env.REQUEST_URL';
 const copy_endpoint = "https://eastus.api.cognitive.microsoft.com/vision/v3.2/ocr?language=en&detectOrientation=true&model-version=latest"
 
 const computerVisionClient = new ComputerVisionClient(
