@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YXuvNthCsM+KbxbYAVkzsKZ2V7E60ufkChlouLxZX7k=",
+  "Source": "Azure-OCR-csharp",
+  "BasePath": "_content/Azure-OCR-csharp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
